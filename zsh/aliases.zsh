@@ -1,7 +1,7 @@
 alias reload!='. ~/.zshrc'
 
 #cat with syntax highlighting
-alias c='~/tools/pygments/pygmentize -O style=monokai -f console256 -g'
+alias c='pygmentize -O style=monokai -f console256 -g'
 # Quick search in a directory for a string. use -iru to search directories ack usually ignores (like .git)
 alias s='ack -i'
 
