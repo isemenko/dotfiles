@@ -70,3 +70,4 @@ alias diffdir='diff -qr $1 $2'
 alias -s conf=vim
 alias -s xml=vim
 
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"

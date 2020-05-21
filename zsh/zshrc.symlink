@@ -58,3 +58,5 @@ fi
 
 # load every completion after autocomplete loads
 # for config_file ($DOTFILES/**/completion.sh) source $config_file
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
