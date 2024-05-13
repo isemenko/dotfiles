@@ -2,7 +2,8 @@ export EDITOR='subl'
 export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox
 
 #export JAVA_HOME=/Library/Java/JavaVirtualMachines/CurrentJDK/Contents/Home
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=~/.sdkman/candidates/java/current
 if [ -d $JAVA_HOME ]; then
   export JAVA_HOME
 fi
